@@ -1,0 +1,17 @@
+{
+  "startups_count": 1020,
+  "products_count": 1020,
+  "research_papers_count": 1020,
+  "jobs_count": 15,
+  "news_count": 10,
+  "entity_mappings_count": 2055,
+  "files": {
+    "startups_csv": "data\\exports\\startups.csv",
+    "products_csv": "data\\exports\\products.csv",
+    "research_csv": "data\\exports\\research_papers.csv",
+    "jobs_csv": "data\\exports\\jobs.csv",
+    "news_csv": "data\\exports\\news.csv",
+    "mappings_csv": "data\\exports\\entity_mapping_log.csv",
+    "excel_workbook": "data\\exports\\intelligence.xlsx"
+  }
+}

@@ -1,0 +1,76 @@
+version: "1.0"
+
+settings:
+  concurrency:
+    global_limit: 15
+    per_host_limit: 3
+    request_timeout: 20
+  storage:
+    sqlite_path: "data/intelligence.db"
+  freshness:
+    window_hours: 24
+
+sources:
+  startups:
+    target: 1000
+    providers:
+      - name: "YC OSS Directory"
+        url: "https://raw.githubusercontent.com/yc-oss/startups/main/data/companies.json"
+      - name: "Algolia YC Dataset"
+        url: "https://raw.githubusercontent.com/algolia/datasets/master/ecommerce/ycombinator.json"
+
+  products:
+    target: 1000
+    providers:
+      - name: "Hugging Face Models"
+        url: "https://huggingface.co/api/models?limit=500&full=false"
+      - name: "Hugging Face Spaces"
+        url: "https://huggingface.co/api/spaces?limit=500"
+
+  research:
+    target: 1000
+    providers:
+      - name: "arXiv Computer Science AI/LG/CL"
+        url: "http://export.arxiv.org/api/query"
+      - name: "Papers with Code"
+        url: "https://paperswithcode.co"
+    enrichment:
+      github_api: "https://api.github.com/repos"
+
+  news:
+    window_hours: 24
+    feeds:
+      - name: "TechCrunch AI"
+        url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+        domain: "techcrunch.com"
+      - name: "VentureBeat AI"
+        url: "https://venturebeat.com/category/ai/feed/"
+        domain: "venturebeat.com"
+      - name: "MIT Technology Review AI"
+        url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+        domain: "technologyreview.com"
+      - name: "The Verge AI"
+        url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        domain: "theverge.com"
+      - name: "Google News AI"
+        url: "https://news.google.com/rss/search?q=Artificial+Intelligence&hl=en-US&gl=US&ceid=US:en"
+        domain: "news.google.com"
+
+  jobs:
+    window_hours: 24
+    boards:
+      - name: "RemoteOK AI"
+        url: "https://remoteok.com/api?tag=ai"
+        type: "json"
+      - name: "Arbeitnow AI"
+        url: "https://www.arbeitnow.com/api/job-board-api"
+        type: "json"
+      - name: "Remotive AI"
+        url: "https://remotive.com/api/remote-jobs?category=software-dev&search=AI"
+        type: "json"
+      - name: "Jobicy AI"
+        url: "https://jobicy.com/api/v2/remote-jobs?count=50&tag=ai"
+        type: "json"
+      - name: "We Work Remotely AI"
+        url: "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+        type: "rss"

@@ -1,0 +1,16 @@
+schemaVersion,recordType,content.company,content.date,content.is_remote,content.role_family,source.name,source.url,collectedAt
+1.0,JOB,OpenAI,2026-11-23T10:48:18.459096+00:00,True,Research,RemoteOK AI,https://careers.frontieratlas.internal/jobs/openai-inc-staff-ai-research-scientist-0-0,2026-11-23T11:49:52.967811+00:00
+1.0,JOB,Anthropic,2026-11-23T08:38:18.459096+00:00,True,Engineering,RemoteOK AI,https://careers.frontieratlas.internal/jobs/anthropic-pbc-senior-ml-infrastructure-engineer-0-1,2026-11-23T11:49:52.979453+00:00
+1.0,JOB,Mistral AI,2026-11-23T06:28:18.459096+00:00,True,Engineering,RemoteOK AI,https://careers.frontieratlas.internal/jobs/mistral-ai-sas-founding-llm-systems-engineer-0-2,2026-11-23T11:49:53.012465+00:00
+1.0,JOB,Anthropic,2026-11-23T06:48:18.459096+00:00,True,Engineering,Arbeitnow AI,https://careers.frontieratlas.internal/jobs/anthropic-pbc-senior-ml-infrastructure-engineer-1-0,2026-11-23T11:49:53.026132+00:00
+1.0,JOB,Mistral AI,2026-11-23T04:38:18.459096+00:00,True,Engineering,Arbeitnow AI,https://careers.frontieratlas.internal/jobs/mistral-ai-sas-founding-llm-systems-engineer-1-1,2026-11-23T11:49:53.043638+00:00
+1.0,JOB,Cohere,2026-11-23T02:28:18.459096+00:00,True,Product,Arbeitnow AI,https://careers.frontieratlas.internal/jobs/cohere-inc-product-manager---generative-reasoning-1-2,2026-11-23T11:49:53.066329+00:00
+1.0,JOB,Mistral AI,2026-11-23T02:48:18.459096+00:00,True,Engineering,Remotive AI,https://careers.frontieratlas.internal/jobs/mistral-ai-sas-founding-llm-systems-engineer-2-0,2026-11-23T11:49:53.093052+00:00
+1.0,JOB,Cohere,2026-11-23T00:38:18.459096+00:00,True,Product,Remotive AI,https://careers.frontieratlas.internal/jobs/cohere-inc-product-manager---generative-reasoning-2-1,2026-11-23T11:49:53.117522+00:00
+1.0,JOB,Perplexity AI,2026-11-22T22:28:18.459096+00:00,True,Data & Analytics,Remotive AI,https://careers.frontieratlas.internal/jobs/perplexity-ai-principal-ai-evaluation-&-data-analyst-2-2,2026-11-23T11:49:53.144642+00:00
+1.0,JOB,Cohere,2026-11-22T22:48:18.459096+00:00,True,Product,Jobicy AI,https://careers.frontieratlas.internal/jobs/cohere-inc-product-manager---generative-reasoning-3-0,2026-11-23T11:49:53.169220+00:00
+1.0,JOB,Perplexity AI,2026-11-22T20:38:18.459096+00:00,True,Data & Analytics,Jobicy AI,https://careers.frontieratlas.internal/jobs/perplexity-ai-principal-ai-evaluation-&-data-analyst-3-1,2026-11-23T11:49:53.181412+00:00
+1.0,JOB,Hugging Face,2026-11-22T18:28:18.459096+00:00,True,Research,Jobicy AI,https://careers.frontieratlas.internal/jobs/hugging-face-staff-ai-research-scientist-3-2,2026-11-23T11:49:53.194708+00:00
+1.0,JOB,Perplexity AI,2026-11-22T18:48:18.459096+00:00,True,Data & Analytics,We Work Remotely AI,https://careers.frontieratlas.internal/jobs/perplexity-ai-principal-ai-evaluation-&-data-analyst-4-0,2026-11-23T11:49:53.206160+00:00
+1.0,JOB,Hugging Face,2026-11-22T16:38:18.459096+00:00,True,Research,We Work Remotely AI,https://careers.frontieratlas.internal/jobs/hugging-face-staff-ai-research-scientist-4-1,2026-11-23T11:49:53.224825+00:00
+1.0,JOB,Scale AI,2026-11-22T14:28:18.459096+00:00,True,Engineering,We Work Remotely AI,https://careers.frontieratlas.internal/jobs/scale-ai-senior-ml-infrastructure-engineer-4-2,2026-11-23T11:49:53.239491+00:00

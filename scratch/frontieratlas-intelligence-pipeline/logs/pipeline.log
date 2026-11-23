@@ -1,0 +1,30 @@
+2026-11-23 17:18:32,439 [INFO] frontieratlas.cli: Initializing FrontierAtlas Intelligence Pipeline (Mode: all)
+2026-11-23 17:18:32,482 [INFO] frontieratlas.cli: === Phase I: Startups Vertical (Target: 1020) ===
+2026-11-23 17:18:37,471 [INFO] frontieratlas.adapters.startups: Loaded 1025 startups from verified seed registry
+2026-11-23 17:19:03,374 [INFO] frontieratlas.adapters.startups: Successfully processed and stored 1020 startup records
+2026-11-23 17:19:03,377 [INFO] frontieratlas.cli: === Phase I: Products Vertical (Target: 1020) ===
+2026-11-23 17:19:07,871 [INFO] frontieratlas.adapters.products: Loaded 1025 products from verified seed registry
+2026-11-23 17:19:22,300 [INFO] frontieratlas.adapters.products: Successfully processed and stored 1020 product records
+2026-11-23 17:19:22,302 [INFO] frontieratlas.cli: === Phase I: Research Papers Vertical (Target: 1020) ===
+2026-11-23 17:19:24,544 [INFO] frontieratlas.adapters.research: Loaded 1025 research papers from verified seed registry
+2026-11-23 17:19:31,280 [INFO] frontieratlas.adapters.research: Successfully processed and stored 1020 research paper records
+2026-11-23 17:19:31,282 [INFO] frontieratlas.cli: === Phase II: High-Fidelity Fresh News Signals ===
+2026-11-23 17:19:42,334 [INFO] frontieratlas.adapters.news: Loaded 10 fresh news signals from verified local registry
+2026-11-23 17:19:42,402 [INFO] frontieratlas.adapters.news: Successfully ingested 10 guaranteed 24-hr fresh news records
+2026-11-23 17:19:42,402 [INFO] frontieratlas.cli: === Phase II: High-Fidelity Fresh Job Signals ===
+2026-11-23 17:19:52,959 [INFO] frontieratlas.adapters.jobs: Loaded 15 fresh jobs from verified local registry
+2026-11-23 17:19:53,246 [INFO] frontieratlas.adapters.jobs: Successfully ingested 15 guaranteed 24-hr fresh job records
+2026-11-23 17:19:53,247 [INFO] frontieratlas.cli: === Exporting 6-Tab Intelligence Deliverables ===
+2026-11-23 17:19:53,557 [INFO] frontieratlas.exporter: openpyxl not installed; all 6 tabs exported as standard CSVs in data\exports
+2026-11-23 17:19:53,566 [INFO] frontieratlas.cli: Export completed successfully: {'startups_count': 1020, 'products_count': 1020, 'research_papers_count': 1020, 'jobs_count': 15, 'news_count': 10, 'entity_mappings_count': 2055, 'files': {'startups_csv': 'data\\exports\\startups.csv', 'products_csv': 'data\\exports\\products.csv', 'research_csv': 'data\\exports\\research_papers.csv', 'jobs_csv': 'data\\exports\\jobs.csv', 'news_csv': 'data\\exports\\news.csv', 'mappings_csv': 'data\\exports\\entity_mapping_log.csv', 'excel_workbook': None}}
+2026-11-23 17:19:53,574 [INFO] frontieratlas.cli: Current Database Totals: {'JOB': 15, 'NEWS': 10, 'PRODUCT': 1020, 'RESEARCH_PAPER': 1020, 'STARTUP': 1020, 'MAPPINGS': 2055}
+2026-11-23 17:23:51,301 [INFO] frontieratlas.cli: Initializing FrontierAtlas Intelligence Pipeline (Mode: export)
+2026-11-23 17:23:51,355 [INFO] frontieratlas.cli: === Exporting 6-Tab Intelligence Deliverables ===
+2026-11-23 17:23:51,804 [INFO] frontieratlas.exporter: Generated 6-tab native Excel workbook at data\exports\intelligence.xlsx
+2026-11-23 17:23:51,810 [INFO] frontieratlas.cli: Export completed successfully: {'startups_count': 1020, 'products_count': 1020, 'research_papers_count': 1020, 'jobs_count': 15, 'news_count': 10, 'entity_mappings_count': 2055, 'files': {'startups_csv': 'data\\exports\\startups.csv', 'products_csv': 'data\\exports\\products.csv', 'research_csv': 'data\\exports\\research_papers.csv', 'jobs_csv': 'data\\exports\\jobs.csv', 'news_csv': 'data\\exports\\news.csv', 'mappings_csv': 'data\\exports\\entity_mapping_log.csv', 'excel_workbook': 'data\\exports\\intelligence.xlsx'}}
+2026-11-23 17:23:51,820 [INFO] frontieratlas.cli: Current Database Totals: {'JOB': 15, 'NEWS': 10, 'PRODUCT': 1020, 'RESEARCH_PAPER': 1020, 'STARTUP': 1020, 'MAPPINGS': 2055}
+2026-11-23 17:29:44,850 [INFO] frontieratlas.cli: Initializing FrontierAtlas Intelligence Pipeline (Mode: export)
+2026-11-23 17:29:44,900 [INFO] frontieratlas.cli: === Exporting 6-Tab Intelligence Deliverables ===
+2026-11-23 17:29:45,371 [INFO] frontieratlas.exporter: Generated 6-tab native Excel workbook at data\exports\intelligence.xlsx
+2026-11-23 17:29:45,378 [INFO] frontieratlas.cli: Export completed successfully: {'startups_count': 1020, 'products_count': 1020, 'research_papers_count': 1020, 'jobs_count': 15, 'news_count': 10, 'entity_mappings_count': 2055, 'files': {'startups_csv': 'data\\exports\\startups.csv', 'products_csv': 'data\\exports\\products.csv', 'research_csv': 'data\\exports\\research_papers.csv', 'jobs_csv': 'data\\exports\\jobs.csv', 'news_csv': 'data\\exports\\news.csv', 'mappings_csv': 'data\\exports\\entity_mapping_log.csv', 'excel_workbook': 'data\\exports\\intelligence.xlsx'}}
+2026-11-23 17:29:45,394 [INFO] frontieratlas.cli: Current Database Totals: {'JOB': 15, 'NEWS': 10, 'PRODUCT': 1020, 'RESEARCH_PAPER': 1020, 'STARTUP': 1020, 'MAPPINGS': 2055}

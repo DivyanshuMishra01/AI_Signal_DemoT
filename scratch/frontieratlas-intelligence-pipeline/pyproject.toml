@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frontieratlas-intelligence-pipeline"
+version = "1.0.0"
+description = "Evidence-first async ingestion pipeline for AI startups, products, research, news and jobs"
+requires-python = ">=3.10"
+dependencies = [
+  "aiohttp>=3.9", "feedparser>=6.0", "pydantic>=2.6",
+  "python-dotenv>=1.0", "tenacity>=8.2", "beautifulsoup4>=4.12",
+  "lxml>=5.1", "python-dateutil>=2.9", "rapidfuzz>=3.6", "pandas>=2.2",
+  "openpyxl>=3.1", "PyYAML>=6.0", "tqdm>=4.66"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.3"]
+
+[project.scripts]
+frontieratlas = "frontieratlas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

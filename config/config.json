@@ -1,0 +1,17 @@
+{
+  "plugins": {
+    "swarm": {
+      "enabled": true
+    }
+  },
+  "sidecars": {
+    "swarm/swarm_board": {
+      "projectId": "2f7a8de3-b72f-4d66-8fab-f48fda688782",
+      "resolvedPermissions": {},
+      "schemaVersion": 1
+    }
+  },
+  "userSettings": {
+    "remoteControlHostname": "div-rising-titan"
+  }
+}
